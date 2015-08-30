@@ -72,7 +72,25 @@ Indexes :
 2)on delete , if referenced tuple is delete, then child 
 tuples are also deleted .
 
-Last Running lecture :
+OLAP
+a)Online Transaction processing(Short Simple Frequent Transaction)
+b)Online Analytical Processisng(Long Complex InFrequent Transaction)
+
+NoSql Systems.
+1)Flexible Schema
+2)Relaxed Consistency 
+3)Lack of declaritive Query language .
+4)Map Reduce Framework(OLAP)-Hadoop,Pig,Heave
+5)Key Value stores(OLTP)-Cassandra
+6)Document Stores -- CoucheDb, MongoDb
+7)Graph Stores -- Neo4j
+
+Map Reduce Architecture:
+1) Map(Records)=Key,Value
+2)Combine(Key,Value)=Key,Function(Value)
+3)Reduce(Key,F(Val))=Reduce(Key,F2(val))
+4)Writer(Output of Reduce)
+
 
 
 
